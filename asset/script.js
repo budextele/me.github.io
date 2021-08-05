@@ -1,3 +1,12 @@
+window.addEventListener("onload", notif());
+function notif() {
+  if (screen.height > screen.width) {
+    alert(
+      "display untuk mobile device belum disempurnakan, gunakan pc untuk tampilan yang lebih baik. terima kasih"
+    );
+  }
+}
+
 let pp1 = document.getElementById("pp1");
 let pp2 = document.getElementById("pp2");
 let pp3 = document.getElementById("pp3");
